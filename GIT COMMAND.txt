@@ -1,0 +1,24 @@
+to push the code
+
+1) Git init
+2) Git add Remore origin <url>
+3) Git status
+4) Git add .  --// whole project--//
+5) Git status
+6) Git Commit -m "Comment"
+7) Git push origin master
+
+
+=============================
+
+to pull code first time
+
+1) Git clone <GIT URL>
+
+to pull updated code second time
+
+2) Git pull origin master
+
+
+/html/body/div/div[5]/div/div/div[1]/div[1]/div/div[1]/div[2]/div/a/img
+git 
