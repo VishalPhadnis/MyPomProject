@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="10" guice-stage="DEVELOPMENT" verbose="5" name="Failed suite [Suite]">
+  <parameter name="appURL" value="http://i3lerpweb4.itcinfotech.com:8000/psp/OPPORTAL/?cmd=login&amp;languageCd=ENG&amp;"/>
+  <parameter name="browserType" value="firefox"/>
+  <test name="OnePointTest(failed)">
+    <parameter name="appURL" value="http://i3lerpweb4.itcinfotech.com:8000/psp/OPPORTAL/?cmd=login&amp;languageCd=ENG&amp;"/>
+    <parameter name="browserType" value="firefox"/>
+    <classes>
+      <class name="com.onepoint.tests.TestAbsenceBalance">
+        <methods>
+          <include name="tearDown"/>
+          <include name="takeScreenShotOnFailure"/>
+          <include name="testAbsenceBalance"/>
+          <include name="initializeTestBaseSetup"/>
+        </methods>
+      </class> <!-- com.onepoint.tests.TestAbsenceBalance -->
+      <class name="com.onepoint.tests.TestAbsenceRequestHistory">
+        <methods>
+          <include name="tearDown"/>
+          <include name="takeScreenShotOnFailure"/>
+          <include name="testAbsenceRequestHistory"/>
+          <include name="initializeTestBaseSetup"/>
+        </methods>
+      </class> <!-- com.onepoint.tests.TestAbsenceRequestHistory -->
+      <class name="com.onepoint.tests.TestOnDutyReporting">
+        <methods>
+          <include name="tearDown"/>
+          <include name="takeScreenShotOnFailure"/>
+          <include name="initializeTestBaseSetup"/>
+        </methods>
+      </class> <!-- com.onepoint.tests.TestOnDutyReporting -->
+      <class name="com.onepoint.tests.TestTimesheetCreate">
+        <methods>
+          <include name="tearDown"/>
+          <include name="takeScreenShotOnFailure"/>
+          <include name="initializeTestBaseSetup"/>
+        </methods>
+      </class> <!-- com.onepoint.tests.TestTimesheetCreate -->
+    </classes>
+  </test> <!-- OnePointTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->
